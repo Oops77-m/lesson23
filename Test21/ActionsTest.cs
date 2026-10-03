@@ -1,11 +1,12 @@
 using Test21.Page;
+using Allure.Net.Commons.Attributes;
 
 namespace Test21;
 
 public class ActionsTest : BaseTest
 {
     [Test]
-    
+    [AllureTag("ДЗ")]
     public void ActionTest()
     {
         ActionsPage actionsPage = new ActionsPage(driver);

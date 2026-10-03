@@ -1,4 +1,5 @@
 using Test21.Page;
+using Allure.Net.Commons.Attributes;
 
 namespace Test21;
 
@@ -6,10 +7,9 @@ namespace Test21;
 public class JavaScriptTest : BaseTest
 {
     [Test]
+    [AllureTag("ДЗ")]
     public void JSTest()
     {
-        
-        
         JavaScriptPage javaScriptPage = new JavaScriptPage(driver);
         javaScriptPage.OpenJScript();
         Thread.Sleep(2000);

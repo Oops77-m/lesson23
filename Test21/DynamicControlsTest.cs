@@ -1,4 +1,6 @@
+using Allure.NUnit;
 using Test21.Page;
+using Test21.Helpers;
 
 namespace Test21;
 
@@ -11,6 +13,7 @@ public class DynamicControlsTest : BaseTest
         DynamicControlsPage dynamicControlsPage = new DynamicControlsPage(driver);
         dynamicControlsPage.OpenDynamicControls();
         Thread.Sleep(2000);
+        LogHelper.Info("Тесты");
         Assert.That(dynamicControlsPage.IsCheckBoxDisplayed(), Is.True);
         dynamicControlsPage.RemoveButton();
         Thread.Sleep(10000);

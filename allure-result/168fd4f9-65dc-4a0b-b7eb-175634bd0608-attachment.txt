@@ -1,0 +1,6 @@
+2026-10-03 22:28:37,837 [NUnit.Fw.NonParallelWorker] INFO  Test21.Helpers.LogHelper - ═══════════════════════════════
+2026-10-03 22:28:37,837 [NUnit.Fw.NonParallelWorker] INFO  Test21.Helpers.LogHelper - Запуск Chrome
+2026-10-03 22:28:37,837 [NUnit.Fw.NonParallelWorker] INFO  Test21.Helpers.LogHelper - Настройка скачивания файлов
+2026-10-03 22:29:10,898 [NUnit.Fw.NonParallelWorker] INFO  Test21.Helpers.LogHelper - Браузер запущен
+2026-10-03 22:29:16,275 [NUnit.Fw.NonParallelWorker] INFO  Test21.Helpers.LogHelper - Закрытие браузера
+2026-10-03 22:29:16,480 [NUnit.Fw.NonParallelWorker] INFO  Test21.Helpers.LogHelper - ═══════════════════════════════

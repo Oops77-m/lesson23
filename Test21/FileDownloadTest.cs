@@ -1,11 +1,13 @@
+using Allure.Net.Commons.Attributes;
 using Test21.Page;
 
 namespace Test21;
 
-
 public class FileDownloadTest : BaseTest
 {
     [Test]
+    [AllureTag("ДЗ")]
+    [AllureName("Скачивание файла")]
     public void FileDownload()
     {
         FileDownloadPage fileDownloadPage = new FileDownloadPage(driver);

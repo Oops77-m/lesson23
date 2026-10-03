@@ -1,5 +1,6 @@
 ﻿using OpenQA.Selenium.Chrome;
 using Test21.Page;
+using Allure.Net.Commons.Attributes;
 
 namespace Test21;
 
@@ -12,6 +13,7 @@ public class AlertTest : BaseTest
     }
 
     [Test]
+    [AllureTag("ДЗ")]
     public void AlertTest1()
     {
         var alertPage = new AlertPage(driver);
